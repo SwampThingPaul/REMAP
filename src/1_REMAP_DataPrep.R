@@ -270,4 +270,6 @@ summary(remap.dat)
 remap.dat=subset(remap.dat,is.na(DATE)==F)
 
 colnames(remap.dat)=c(idvars.REMAP,chem.var.names)
-write.csv(remap.dat,paste0(export.path,"REMAP_SED_PERI.csv"),row.names = F)
+# write.csv(remap.dat,paste0(export.path,"REMAP_SED_PERI.csv"),row.names = F)
+
+## END
